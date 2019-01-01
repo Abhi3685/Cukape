@@ -835,10 +835,6 @@ header.theme-main-menu-one {
   background-position:center; 
   background-repeat:no-repeat;
 }
-.modal-cake-desc {
-  margin: 10px 40px; 
-  font-size: 30px;
-}
 /*-------------------- Popular Faq ---------------------*/
 .popular-faq .faq-panel {
   margin-top: 70px;

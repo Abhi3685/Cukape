@@ -79,6 +79,9 @@
 			.food-menu-tab .tab-content {
 				margin-top: 50px !important;
 			}
+			.form-control {
+				margin: 15px 0px;
+			}
 		</style>
 			
 	</head>
@@ -650,6 +653,7 @@
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-primary" id="place-order-btn">Place Order</button>
+		        <button type="button" class="btn btn-warning" onclick="location.reload();">Clear Cart</button>
 		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 		      </div>
 		    </div>
@@ -683,11 +687,15 @@
       <div class="modal-body">
       	<div class="modal-img-wrapper" style="background-image: url(images/cakes/1.jpg);"></div><br>
       	<h3 class="item-name text-center">Chocolate Cake with Whipped Cream</h3>
-      	<div class="modal-cake-desc">
-	      	<p class="item-weight float-left">Weight: 2Kg</p>
-	      	<p class="item-price float-right">Price: Rs. 1000/-</p>
-      	</div>
-      	<div style="clear: both;"></div>
+      	<select class="form-control weight-select">
+      		<option value="">Select Weight</option>
+      		<option value="1Kg">1Kg</option>
+      		<option value="2Kg">2Kg</option>
+      		<option value="3Kg">3Kg</option>
+      		<option value="4Kg">4Kg</option>
+      		<option value="5Kg">5Kg</option>
+	    </select>
+	    <div class="alert alert-success text-center item-price"></div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" onclick="add_item('c1');">Add To Cart</button>
@@ -706,11 +714,15 @@
       <div class="modal-body">
       	<div class="modal-img-wrapper" style="background-image: url(images/cakes/2.jpg);"></div><br>
       	<h3 class="item-name text-center">Heart Shaped Cake</h3>
-      	<div class="modal-cake-desc">
-	      	<p class="item-weight float-left">Weight: 1Kg</p>
-	      	<p class="item-price float-right">Price: Rs. 700/-</p>
-      	</div>
-      	<div style="clear: both;"></div>
+      	<select class="form-control weight-select">
+      		<option value="">Select Weight</option>
+      		<option value="1Kg">1Kg</option>
+      		<option value="2Kg">2Kg</option>
+      		<option value="3Kg">3Kg</option>
+      		<option value="4Kg">4Kg</option>
+      		<option value="5Kg">5Kg</option>
+	    </select>
+	    <div class="alert alert-success text-center item-price"></div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" onclick="add_item('c2');">Add To Cart</button>
@@ -728,12 +740,16 @@
       </div>
       <div class="modal-body">
       	<div class="modal-img-wrapper" style="background-image: url(images/cakes/3.jpg);"></div><br>
-      	<h3 class="item-name text-center">Cake Name: Fancy Cake With Shopping Items</h3>
-      	<div class="modal-cake-desc">
-	      	<p class="item-weight float-left">Weight: 3Kg</p>
-	      	<p class="item-price float-right">Price: Rs. 1200/-</p>
-      	</div>
-      	<div style="clear: both;"></div>
+      	<h3 class="item-name text-center">Fancy Cake With Shopping Items</h3>
+      	<select class="form-control weight-select">
+      		<option value="">Select Weight</option>
+      		<option value="1Kg">1Kg</option>
+      		<option value="2Kg">2Kg</option>
+      		<option value="3Kg">3Kg</option>
+      		<option value="4Kg">4Kg</option>
+      		<option value="5Kg">5Kg</option>
+	    </select>
+	    <div class="alert alert-success text-center item-price"></div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" onclick="add_item('c3');">Add To Cart</button>
@@ -752,11 +768,15 @@
       <div class="modal-body">
       	<div class="modal-img-wrapper" style="background-image: url(images/cakes/4.jpg);"></div><br>
       	<h3 class="item-name text-center">Step Cake Plain Vanilla</h3>
-      	<div class="modal-cake-desc">
-	      	<p class="item-weight float-left">Weight: 5Kg</p>
-	      	<p class="item-price float-right">Price: Rs. 3000/-</p>
-      	</div>
-      	<div style="clear: both;"></div>
+      	<select class="form-control weight-select">
+      		<option value="">Select Weight</option>
+      		<option value="1Kg">1Kg</option>
+      		<option value="2Kg">2Kg</option>
+      		<option value="3Kg">3Kg</option>
+      		<option value="4Kg">4Kg</option>
+      		<option value="5Kg">5Kg</option>
+	    </select>
+	    <div class="alert alert-success text-center item-price"></div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" onclick="add_item('c4');">Add To Cart</button>
@@ -775,11 +795,15 @@
       <div class="modal-body">
       	<div class="modal-img-wrapper" style="background-image: url(images/cakes/5.jpg);"></div><br>
       	<h3 class="item-name text-center">Chocolate Brownie Cake</h3>
-      	<div class="modal-cake-desc">
-	      	<p class="item-weight float-left">Weight: 2Kg</p>
-	      	<p class="item-price float-right">Price: Rs. 600/-</p>
-      	</div>
-      	<div style="clear: both;"></div>
+      	<select class="form-control weight-select">
+      		<option value="">Select Weight</option>
+      		<option value="1Kg">1Kg</option>
+      		<option value="2Kg">2Kg</option>
+      		<option value="3Kg">3Kg</option>
+      		<option value="4Kg">4Kg</option>
+      		<option value="5Kg">5Kg</option>
+	    </select>
+	    <div class="alert alert-success text-center item-price"></div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" onclick="add_item('c5');">Add To Cart</button>
@@ -798,11 +822,15 @@
       <div class="modal-body">
       	<div class="modal-img-wrapper" style="background-image: url(images/cakes/6.jpg);"></div><br>
       	<h3 class="item-name text-center">Strawberry And Chocolate Cake</h3>
-      	<div class="modal-cake-desc">
-	      	<p class="item-weight float-left">Weight: 1Kg</p>
-	      	<p class="item-price float-right">Price: Rs. 400/-</p>
-      	</div>
-      	<div style="clear: both;"></div>
+      	<select class="form-control weight-select">
+      		<option value="">Select Weight</option>
+      		<option value="1Kg">1Kg</option>
+      		<option value="2Kg">2Kg</option>
+      		<option value="3Kg">3Kg</option>
+      		<option value="4Kg">4Kg</option>
+      		<option value="5Kg">5Kg</option>
+	    </select>
+	    <div class="alert alert-success text-center item-price"></div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" onclick="add_item('c6');">Add To Cart</button>
@@ -821,11 +849,15 @@
       <div class="modal-body">
       	<div class="modal-img-wrapper" style="background-image: url(images/cakes/7.jpg);"></div><br>
       	<h3 class="item-name text-center">Vanilla Cherry Cake</h3>
-      	<div class="modal-cake-desc">
-	      	<p class="item-weight float-left">Weight: 1Kg</p>
-	      	<p class="item-price float-right">Price: Rs. 500/-</p>
-      	</div>
-      	<div style="clear: both;"></div>
+      	<select class="form-control weight-select">
+      		<option value="">Select Weight</option>
+      		<option value="1Kg">1Kg</option>
+      		<option value="2Kg">2Kg</option>
+      		<option value="3Kg">3Kg</option>
+      		<option value="4Kg">4Kg</option>
+      		<option value="5Kg">5Kg</option>
+	    </select>
+	    <div class="alert alert-success text-center item-price"></div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" onclick="add_item('c7');">Add To Cart</button>
@@ -844,11 +876,15 @@
       <div class="modal-body">
       	<div class="modal-img-wrapper" style="background-image: url(images/cakes/8.jpg);"></div><br>
       	<h3 class="item-name text-center">Barbie Doll Cake</h3>
-      	<div class="modal-cake-desc">
-	      	<p class="item-weight float-left">Weight: 2Kg</p>
-	      	<p class="item-price float-right">Price: Rs. 800/-</p>
-      	</div>
-      	<div style="clear: both;"></div>
+      	<select class="form-control weight-select">
+      		<option value="">Select Weight</option>
+      		<option value="1Kg">1Kg</option>
+      		<option value="2Kg">2Kg</option>
+      		<option value="3Kg">3Kg</option>
+      		<option value="4Kg">4Kg</option>
+      		<option value="5Kg">5Kg</option>
+	    </select>
+	    <div class="alert alert-success text-center item-price"></div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" onclick="add_item('c8');">Add To Cart</button>
@@ -872,25 +908,30 @@
 	});
 
 	function add_item(id){
-		$("#"+id).modal('hide');
-		$("header").addClass("fixed");
-		$("body").css("overflow", "");
 		var cart = [];
 		if(localStorage.getItem("cart")){
 			cart = JSON.parse(localStorage.getItem("cart"));
 		}
 		var item = {};
 		item.name = $("#"+id+" .item-name").html();
-		item.weight = $("#"+id+" .item-weight").html();
+		item.weight = "Weight: " + $("#"+id+" .weight-select").val();
 		item.price = $("#"+id+" .item-price").html();
-		cart.push(item);
-		localStorage.setItem('cart', JSON.stringify(cart));
-		$(".product-added-msg").fadeIn();
-		$(".main-page-wrapper").css("opacity","0.3");
-		setTimeout(function(){
-			$(".product-added-msg").fadeOut();
-			$(".main-page-wrapper").css("opacity","1");
-		}, 2000);
+
+		if($("#"+id+" .weight-select").val() == ""){
+			alert("No weight selected. Please select a weight.");
+		} else {
+			$("#"+id).modal('hide');
+			$("header").addClass("fixed");
+			$("body").css("overflow", "");
+			cart.push(item);
+			localStorage.setItem('cart', JSON.stringify(cart));
+			$(".product-added-msg").fadeIn();
+			$(".main-page-wrapper").css("opacity","0.3");
+			setTimeout(function(){
+				$(".product-added-msg").fadeOut();
+				$(".main-page-wrapper").css("opacity","1");
+			}, 2000);
+		}
 	}
 
 	$(".order-btn-wrapper").on('click', function(){
@@ -918,7 +959,7 @@
 	function checkEmail() {
 		var re = /\S+@\S+\.\S+/;
     	isValidEmail = re.test($("#user-email").val());
-    	if(isValidEmail == true){
+    	if(isValidEmail === true){
     		$("#place-order-btn").removeAttr("disabled");
     	}
 	};
@@ -928,11 +969,41 @@
 		$("body").css("overflow", "hidden");
 	});
 
+	$(".weight-select").on('change', function(){
+        var option = $(this).find("option:selected").attr("value");
+        var price_line;
+        if(option == "1Kg"){
+           	price_line = "Price: Rs. 300/-";
+        } else if(option == "2Kg"){
+           	price_line = "Price: Rs. 500/-";
+        } else if(option == "3Kg"){
+           	price_line = "Price: Rs. 800/-";
+        } else if(option == "4Kg"){
+           	price_line = "Price: Rs. 1200/-";
+        } else if(option == "5Kg"){
+           	price_line = "Price: Rs. 2000/-";
+        } else {
+        	price_line = "";
+        }
+        if(price_line != ""){
+        	$(".item-price").html(price_line);
+        	$(".item-price").show();
+        } else {
+        	$(".item-price").hide();
+        }
+    });
+
+	$('.cake-desc-modal').on('hidden.bs.modal', function (e) {
+	 	$(".item-price").hide();
+	 	$(".weight-select").val("");
+	});
+
 	$('#thanks-modal').on('hidden.bs.modal', function (e) {
 	  	$("header").addClass("fixed");
 		$("body").css("overflow", "");
 	});
 
+	$(".item-price").hide();
 	$('.cart-modal').on('hidden.bs.modal', function (e) {
 	  	$("header").addClass("fixed");
 		$("body").css("overflow", "");

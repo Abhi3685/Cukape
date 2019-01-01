@@ -1,0 +1,7 @@
+
+@font-face {
+  font-family: 'Breetty';
+  src: url('MS_19.html') format('embedded-opentype'),  url('Breetty.woff') format('woff'), url('Breetty.ttf')  format('truetype'), url('Breetty.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

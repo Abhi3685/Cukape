@@ -58,11 +58,12 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .our-team.team-style-two .team-member .image {width: 220px;height: 220px;}
+  .cake-desc-modal { top: 5%; }
 }
 
 /*(min-width: 768px) and (max-width: 991px)*/
 @media (max-width: 767px) {
-  .cake-desc-modal { top: 15%; }
+  .cake-desc-modal { top: 10%; }
   .product-added-msg {width: 90%; margin: 0px 30px;}
   .delicious-food-section.fix-top-margin {padding-top: 80px;}
   .banner-one,.theme-inner-banner {margin-bottom: 80px;}
